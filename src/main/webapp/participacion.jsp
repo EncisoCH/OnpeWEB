@@ -15,6 +15,7 @@
         <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css" media="screen"/>		
     </head>
 	<body>
+	
 		<%@include file="WEB-INF/header.jsp" %>
 								
 		<div id="imprimelo3">
@@ -178,5 +179,6 @@
 		<div id="divDetalle"></div>
 		
 		<%@include file="WEB-INF/footer.jsp" %>
+		
 	</body>
 </html>
