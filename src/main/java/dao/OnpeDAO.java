@@ -18,13 +18,11 @@ public class OnpeDAO {
     	   return db.getRegistros();
        }
        
+       
+       //--Actas
        public Object getGrupoVotacion(String id) {
     	   db.Sentencia( String.format("usp_getGrupoVotacion '%s'", id) );
     	   return db.getRegistro();
        }
        
-       public Object getActasNumero(String id) {
-    	   db.Sentencia( String.format("usp_getActasNumero '%s'", id) );
-    	   return db.getRegistro();
-       }
 }
